@@ -1,0 +1,2 @@
+defmodule Awsmbot do
+end
