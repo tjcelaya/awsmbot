@@ -2,7 +2,8 @@ defmodule AwsmbotTest do
   use ExUnit.Case
   doctest Awsmbot
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  test "" do
+    refute nil == System.get_env "SLACK_TOKEN"
+    
   end
 end
